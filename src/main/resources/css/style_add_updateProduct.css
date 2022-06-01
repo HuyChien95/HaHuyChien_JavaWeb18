@@ -1,0 +1,44 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+.card{
+	margin-top: 1.625rem
+}
+form .confirmBnt{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#button{
+    margin: 10px;
+    margin-top: 18px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    color: #566a7f;
+    border: 1px solid #d9dee3;
+    border-radius: 5px;
+    background-color: white;
+    transition: all 0.2s ease;
+    line-height: 35px;
+    text-align: center;
+}
+#button:hover{
+    background-color: #f2f2f2;
+}
+#buttonAddProduct{
+	text-align:center;
+	padding:0px;
+	line-height:35px;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    color: #566a7f;
+    border: 1px solid #d9dee3;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+#buttonAddProduct:hover{
+    background-color: #f2f2f2;
+}
